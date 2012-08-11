@@ -16,6 +16,7 @@
 		62F5587615D6C08100C29B97 /* AwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5587515D6C08100C29B97 /* AwViewController.m */; };
 		62F5587915D6C08100C29B97 /* AwViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F5587715D6C08100C29B97 /* AwViewController_iPhone.xib */; };
 		62F5587C15D6C08100C29B97 /* AwViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F5587A15D6C08100C29B97 /* AwViewController_iPad.xib */; };
+		62F5588415D6C48000C29B97 /* AwModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5588315D6C48000C29B97 /* AwModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		62F5587515D6C08100C29B97 /* AwViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwViewController.m; sourceTree = "<group>"; };
 		62F5587815D6C08100C29B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AwViewController_iPhone.xib; sourceTree = "<group>"; };
 		62F5587B15D6C08100C29B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AwViewController_iPad.xib; sourceTree = "<group>"; };
+		62F5588215D6C48000C29B97 /* AwModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwModel.h; sourceTree = "<group>"; };
+		62F5588315D6C48000C29B97 /* AwModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				62F5587515D6C08100C29B97 /* AwViewController.m */,
 				62F5587715D6C08100C29B97 /* AwViewController_iPhone.xib */,
 				62F5587A15D6C08100C29B97 /* AwViewController_iPad.xib */,
+				62F5588215D6C48000C29B97 /* AwModel.h */,
+				62F5588315D6C48000C29B97 /* AwModel.m */,
 				62F5586915D6C08100C29B97 /* Supporting Files */,
 			);
 			path = AutoWord;
@@ -169,6 +174,7 @@
 				62F5586F15D6C08100C29B97 /* main.m in Sources */,
 				62F5587315D6C08100C29B97 /* AwAppDelegate.m in Sources */,
 				62F5587615D6C08100C29B97 /* AwViewController.m in Sources */,
+				62F5588415D6C48000C29B97 /* AwModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
