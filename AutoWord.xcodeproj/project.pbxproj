@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F5586315D6C08100C29B97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5586215D6C08100C29B97 /* UIKit.framework */; };
+		62F5586515D6C08100C29B97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5586415D6C08100C29B97 /* Foundation.framework */; };
+		62F5586715D6C08100C29B97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5586615D6C08100C29B97 /* CoreGraphics.framework */; };
+		62F5586D15D6C08100C29B97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62F5586B15D6C08100C29B97 /* InfoPlist.strings */; };
+		62F5586F15D6C08100C29B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5586E15D6C08100C29B97 /* main.m */; };
+		62F5587315D6C08100C29B97 /* AwAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5587215D6C08100C29B97 /* AwAppDelegate.m */; };
+		62F5587615D6C08100C29B97 /* AwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5587515D6C08100C29B97 /* AwViewController.m */; };
+		62F5587915D6C08100C29B97 /* AwViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F5587715D6C08100C29B97 /* AwViewController_iPhone.xib */; };
+		62F5587C15D6C08100C29B97 /* AwViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F5587A15D6C08100C29B97 /* AwViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62F5585E15D6C08100C29B97 /* AutoWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F5586215D6C08100C29B97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62F5586415D6C08100C29B97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62F5586615D6C08100C29B97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62F5586A15D6C08100C29B97 /* AutoWord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoWord-Info.plist"; sourceTree = "<group>"; };
+		62F5586C15D6C08100C29B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62F5586E15D6C08100C29B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62F5587015D6C08100C29B97 /* AutoWord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoWord-Prefix.pch"; sourceTree = "<group>"; };
+		62F5587115D6C08100C29B97 /* AwAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwAppDelegate.h; sourceTree = "<group>"; };
+		62F5587215D6C08100C29B97 /* AwAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwAppDelegate.m; sourceTree = "<group>"; };
+		62F5587415D6C08100C29B97 /* AwViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwViewController.h; sourceTree = "<group>"; };
+		62F5587515D6C08100C29B97 /* AwViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwViewController.m; sourceTree = "<group>"; };
+		62F5587815D6C08100C29B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AwViewController_iPhone.xib; sourceTree = "<group>"; };
+		62F5587B15D6C08100C29B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AwViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F5585B15D6C08100C29B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F5586315D6C08100C29B97 /* UIKit.framework in Frameworks */,
+				62F5586515D6C08100C29B97 /* Foundation.framework in Frameworks */,
+				62F5586715D6C08100C29B97 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62F5585315D6C08100C29B97 = {
+			isa = PBXGroup;
+			children = (
+				62F5586815D6C08100C29B97 /* AutoWord */,
+				62F5586115D6C08100C29B97 /* Frameworks */,
+				62F5585F15D6C08100C29B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62F5585F15D6C08100C29B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F5585E15D6C08100C29B97 /* AutoWord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F5586115D6C08100C29B97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F5586215D6C08100C29B97 /* UIKit.framework */,
+				62F5586415D6C08100C29B97 /* Foundation.framework */,
+				62F5586615D6C08100C29B97 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62F5586815D6C08100C29B97 /* AutoWord */ = {
+			isa = PBXGroup;
+			children = (
+				62F5587115D6C08100C29B97 /* AwAppDelegate.h */,
+				62F5587215D6C08100C29B97 /* AwAppDelegate.m */,
+				62F5587415D6C08100C29B97 /* AwViewController.h */,
+				62F5587515D6C08100C29B97 /* AwViewController.m */,
+				62F5587715D6C08100C29B97 /* AwViewController_iPhone.xib */,
+				62F5587A15D6C08100C29B97 /* AwViewController_iPad.xib */,
+				62F5586915D6C08100C29B97 /* Supporting Files */,
+			);
+			path = AutoWord;
+			sourceTree = "<group>";
+		};
+		62F5586915D6C08100C29B97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F5586A15D6C08100C29B97 /* AutoWord-Info.plist */,
+				62F5586B15D6C08100C29B97 /* InfoPlist.strings */,
+				62F5586E15D6C08100C29B97 /* main.m */,
+				62F5587015D6C08100C29B97 /* AutoWord-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F5585D15D6C08100C29B97 /* AutoWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F5587F15D6C08100C29B97 /* Build configuration list for PBXNativeTarget "AutoWord" */;
+			buildPhases = (
+				62F5585A15D6C08100C29B97 /* Sources */,
+				62F5585B15D6C08100C29B97 /* Frameworks */,
+				62F5585C15D6C08100C29B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoWord;
+			productName = AutoWord;
+			productReference = 62F5585E15D6C08100C29B97 /* AutoWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F5585515D6C08100C29B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Aw;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Scott C Morrison";
+			};
+			buildConfigurationList = 62F5585815D6C08100C29B97 /* Build configuration list for PBXProject "AutoWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62F5585315D6C08100C29B97;
+			productRefGroup = 62F5585F15D6C08100C29B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F5585D15D6C08100C29B97 /* AutoWord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F5585C15D6C08100C29B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F5586D15D6C08100C29B97 /* InfoPlist.strings in Resources */,
+				62F5587915D6C08100C29B97 /* AwViewController_iPhone.xib in Resources */,
+				62F5587C15D6C08100C29B97 /* AwViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F5585A15D6C08100C29B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F5586F15D6C08100C29B97 /* main.m in Sources */,
+				62F5587315D6C08100C29B97 /* AwAppDelegate.m in Sources */,
+				62F5587615D6C08100C29B97 /* AwViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62F5586B15D6C08100C29B97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F5586C15D6C08100C29B97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62F5587715D6C08100C29B97 /* AwViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F5587815D6C08100C29B97 /* en */,
+			);
+			name = AwViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		62F5587A15D6C08100C29B97 /* AwViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F5587B15D6C08100C29B97 /* en */,
+			);
+			name = AwViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62F5587D15D6C08100C29B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62F5587E15D6C08100C29B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F5588015D6C08100C29B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoWord/AutoWord-Prefix.pch";
+				INFOPLIST_FILE = "AutoWord/AutoWord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62F5588115D6C08100C29B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoWord/AutoWord-Prefix.pch";
+				INFOPLIST_FILE = "AutoWord/AutoWord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F5585815D6C08100C29B97 /* Build configuration list for PBXProject "AutoWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F5587D15D6C08100C29B97 /* Debug */,
+				62F5587E15D6C08100C29B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F5587F15D6C08100C29B97 /* Build configuration list for PBXNativeTarget "AutoWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F5588015D6C08100C29B97 /* Debug */,
+				62F5588115D6C08100C29B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62F5585515D6C08100C29B97 /* Project object */;
+}
